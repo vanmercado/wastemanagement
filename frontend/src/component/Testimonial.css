@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.carousel {
+	padding: 2%;
+}
+.slides img {
+	height: 100px;
+}
+.carousel-item {
+	height: 300px;
+}
+.carousel-item h4,
+.carousel-item h5 {
+	font-size: 18px;
+	font-family: 'Noto Sans';
+}

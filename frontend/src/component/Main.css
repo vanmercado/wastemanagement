@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Main .posts-area {
+	position: relative;
+}
+
+.Main .loading-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 150;
+}
+
+.main-body {
+	background: #eefaf2;
+	min-height: 100vh;
+}
+.main-nav {
+	background: rgba(248, 248, 248, 0.993);
+	box-shadow: 5px 2px 30px rgba(128, 128, 128, 0.401);
+}
+
+.trens-box {
+	position: relative;
+	height: 190px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.box1 {
+	background: linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.442),
+			rgb(0, 0, 0)
+		),
+		url(../photos/wastem/oceanplastic.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(90%);
+}
+.box2 {
+	background: linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.442),
+			rgb(0, 0, 0)
+		),
+		url(../photos/wastem/sustainhospital.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(90%);
+}
+.box3 {
+	background: linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.442),
+			rgb(0, 0, 0)
+		),
+		url(../photos/wastem/farmwaste.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(90%);
+}
+.box4 {
+	background: linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.442),
+			rgb(0, 0, 0)
+		),
+		url(../photos/wastem/helphand.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(90%);
+}
+.trends-p {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.side-bar {
+	position: relative;
+}
+.side-logo {
+	height: 100px;
+	filter: brightness(80%);
+}
+.side-top-com {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	color: white;
+	font-size: 20px;
+}
+.sidebar-names {
+	vertical-align: middle;
+	border-top: 0.5px solid rgba(128, 128, 128, 0.245);
+}
+.sidebar-img {
+	width: 40px;
+	vertical-align: middle;
+}
+.sidebar-topic {
+	background: rgba(128, 128, 128, 0.074);
+	border-radius: 10px;
+	margin-right: 15px;
+	padding: 1px 6px;
+}
+.sidebar-topic:hover {
+	background: rgba(128, 128, 128, 0.176);
+	cursor: pointer;
+}
+.arrowicon {
+	width: 25px;
+}
+.tryicon {
+	width: 40px;
+}
+.nav-div {
+	background: rgba(17, 88, 17, 0.911);
+	height: 40px;
+}

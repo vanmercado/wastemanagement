@@ -1,0 +1,64 @@
+{
+  "name": "react-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "@syncfusion/ej2-react-calendars": "^19.2.44",
+    "@syncfusion/ej2-react-treegrid": "^19.2.44",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "gsap": "^3.7.1",
+    "jwt-decode": "^3.1.2",
+    "mdb-ui-kit": "^3.8.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-calendar": "^3.4.0",
+    "react-countup": "^4.4.0",
+    "react-datepicker": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-hot-toast": "^2.0.0",
+    "react-loading": "^2.0.3",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-slick": "^0.28.1",
+    "react-time-picker": "^4.3.0",
+    "react-visibility-sensor": "^5.1.1",
+    "redux": "^4.1.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

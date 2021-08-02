@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.App p {
+	margin-bottom: 0;
+}
+
+.App-header {
+	height: 100vh;
+	display: grid;
+	place-content: center;
+	background-color: #eef5fa;
+}
+.nav {
+	background: rgba(17, 88, 17, 0.966);
+	box-shadow: 5px 2px 30px rgba(128, 128, 128, 0.401);
+}
+.nav-link {
+	color: #17a2b8;
+}
+.link-cursor {
+	cursor: pointer;
+}
+.banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.299), rgba(0, 0, 0, 0.299)),
+		url('./photos/wastem/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 95vh;
+	font-family: Verdana;
+	margin-left: 0px;
+}
+
+/* Animated  */
+.content h2 {
+	color: white;
+	font-size: 48px;
+}
+
+span.span-link:hover {
+	text-decoration: underline;
+}
+
+.welcome {
+	opacity: 0;
+	transform: translateY(2rem);
+	animation: fadeInUp 1s ease forwards;
+	animation-delay: 1.5s;
+}
+.welcome-btn {
+	opacity: 0;
+	transform: translateY(2rem);
+	animation: fadeInUp 1s ease forwards;
+	animation-delay: 1.5s;
+}
+@keyframes fadeInUp {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* End Animated  */
+
+.content h3 {
+	font-size: 30px;
+}
+
+.content h1 {
+	font-size: 45px;
+	color: #fff;
+}
+
+a {
+	color: rgb(91, 192, 222);
+}
+/* about  */
+.about {
+	height: max-content;
+
+	height: max-content;
+}
+.about-inner {
+	height: max-content;
+}
+.div-calendar {
+	box-shadow: -1px 5px 10px rgba(128, 128, 128, 0.401);
+}
+.calendar {
+	letter-spacing: 1px;
+	height: 50px;
+	font-size: 25px;
+}
+.calendar img {
+	width: 30px;
+}
+/* service  */
+.service-header {
+	font-size: 35px;
+	margin-top: 150px;
+}
+.div-service {
+	width: 350px;
+	height: 400px;
+	box-shadow: -1px 5px 10px rgba(128, 128, 128, 0.401);
+	margin-bottom: 15px;
+}
+.div-service img {
+	height: 200px;
+}
+/* Contact  */
+.contacts {
+	font-size: 25px;
+	height: max-content;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.div-contact {
+	height: max-content;
+}
+.icon-contact img {
+	width: 50px;
+}
+/* footer  */
+.icon {
+	width: 25px;
+}
+.icon:hover {
+	transform: scale(1.2);
+}
+
+/* end  */
+.section-3 {
+	background-color: rgba(224, 224, 224, 0.367);
+}
+.section-5 {
+	background-color: rgba(224, 224, 224, 0.367);
+}
+.section-5-border {
+	position: relative;
+}
+.section-5-border::after {
+	content: '';
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background-color: #db584e;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	opacity: 0.8;
+}
+.footer {
+	background: rgba(42, 99, 8, 0.836);
+	color: rgba(255, 255, 255, 0.891);
+	padding: 10px;
+}
+.copyright {
+	border-top: 1px solid gray;
+}
+.callus {
+	font-size: 18px;
+}
+#payaccount {
+	border-radius: 0;
+}
